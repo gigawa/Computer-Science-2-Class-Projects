@@ -1,0 +1,112 @@
+Script started on Tue 09 Feb 2016 07:20:15 PM PST
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project3grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project3$ g++ project3.cpp -o project3
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project3grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project3$ ./project3
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 1
+
+  Please enter the file name: locationData
+
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 2
+
+Hertz 93619
+2014 Toyota Tacoma $115.12 per day Available: true 
+2012 Honda CRV $85.1 per day Available: false 
+2015 Ford Fusion $90.89 per day Available: false 
+2013 GMC Yukon $110.43 per day Available: false 
+2009 Dodge Neon $45.25 per day Available: true 
+
+Alamo 89502
+2011 Toyota Rav4 $65.02 per day Available: true 
+2012 Mazda CX5 $86.75 per day Available: true 
+2016 Subaru Outback $71.27 per day Available: false 
+2015 Ford F150 $112.83 per day Available: true 
+2010 Toyota Corolla $50.36 per day Available: true 
+
+Budget 93035
+2008 Ford Fiesta $42.48 per day Available: false 
+2009 Dodge Charger $55.36 per day Available: true 
+2012 Chevy Volt $89.03 per day Available: false 
+2007 Subaru Legacy $59.19 per day Available: false 
+2010 Nissan Maxima $51.68 per day Available: true 
+
+
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 3
+
+  Please enter the agency name: Budget
+  Please enter the car number: 2
+  Please enter the number of days: 3
+Budget  Estimated Price: $166.08
+
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 4
+
+  Most Expensive Car: Hertz: 2014 Toyota Tacoma $115.12 per day Available: true 
+
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 5
+
+Hertz 93619
+2014 Toyota Tacoma $115.12 per day Available: true 
+2009 Dodge Neon $45.25 per day Available: true 
+
+Alamo 89502
+2011 Toyota Rav4 $65.02 per day Available: true 
+2012 Mazda CX5 $86.75 per day Available: true 
+2015 Ford F150 $112.83 per day Available: true 
+2010 Toyota Corolla $50.36 per day Available: true 
+
+Budget 93035
+2009 Dodge Charger $55.36 per day Available: true 
+2010 Nissan Maxima $51.68 per day Available: true 
+
+
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 6
+
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project3grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project3$ exit
+
+Script done on Tue 09 Feb 2016 07:21:12 PM PST

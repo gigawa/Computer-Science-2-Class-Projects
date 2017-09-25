@@ -1,0 +1,181 @@
+Script started on Wed 24 Feb 2016 09:45:00 AM PST
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project5grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project5$ make
+g++ -c String.cpp String.h
+g++ testDriver.cpp String.o -o project5
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project5grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project5$ valgrind ./project 5
+==12861== Memcheck, a memory error detector
+==12861== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==12861== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==12861== Command: ./project5
+==12861== 
+Please enter the file name: strings
+  String Menu
+  ============================== 
+  1.  Copy strings
+  2.  Concat strings
+  3.  compare strings
+  4.  print strings
+  5.  deallocate and exit
+  Enter your selection: 1
+
+  String Menu
+  ============================== 
+  1.  Copy strings
+  2.  Concat strings
+  3.  compare strings
+  4.  print strings
+  5.  deallocate and exit
+  Enter your selection: 4
+
+==12861== Conditional jump or move depends on uninitialised value(s)
+==12861==    at 0x4C2E0F8: strlen (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12861==    by 0x4ECBEB8: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19)
+==12861==    by 0x40185B: String::print() (in /home/grant/Desktop/CS202/Projects/project5/project5)
+==12861==    by 0x4012D6: print(String&, String&, String*, int) (in /home/grant/Desktop/CS202/Projects/project5/project5)
+==12861==    by 0x4010AF: main (in /home/grant/Desktop/CS202/Projects/project5/project5)
+==12861== 
+dog
+dog
+apple
+grapes
+orange
+==12861== Conditional jump or move depends on uninitialised value(s)
+==12861==    at 0x4C2E0F8: strlen (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==12861==    by 0x4ECBEB8: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19)
+==12861==    by 0x40185B: String::print() (in /home/grant/Desktop/CS202/Projects/project5/project5)
+==12861==    by 0x4012F7: print(String&, String&, String*, int) (in /home/grant/Desktop/CS202/Projects/project5/project5)
+==12861==    by 0x4010AF: main (in /home/grant/Desktop/CS202/Projects/project5/project5)
+==12861== 
+pear
+pear
+grape
+grapefruit
+peach
+Lemon
+Lime
+Compare: 0
+  String Menu
+  ============================== 
+  1.  Copy strings
+  2.  Concat strings
+  3.  compare strings
+  4.  print strings
+  5.  deallocate and exit
+  Enter your selection: 3
+
+==12861== Conditional jump or move depends on uninitialised value(s)
+==12861==    at 0x4017B7: String::compare(String const&) (in /home/grant/Desktop/CS202/Projects/project5/project5)
+==12861==    by 0x4012A3: compare(String&, String&, int&) (in /home/grant/Desktop/CS202/Projects/project5/project5)
+==12861==    by 0x40108A: main (in /home/grant/Desktop/CS202/Projects/project5/project5)
+==12861== 
+  String Menu
+  ============================== 
+  1.  Copy strings
+  2.  Concat strings
+  3.  compare strings
+  4.  print strings
+  5.  deallocate and exit
+  Enter your selection: 4
+
+dog
+dog
+apple
+grapes
+orange
+pear
+pear
+grape
+grapefruit
+peach
+Lemon
+Lime
+Compare: 0
+  String Menu
+  ============================== 
+  1.  Copy strings
+  2.  Concat strings
+  3.  compare strings
+  4.  print strings
+  5.  deallocate and exit
+  Enter your selection: 2
+
+==12861== Conditional jump or move depends on uninitialised value(s)
+==12861==    at 0x4016B2: String::concat(String const&) (in /home/grant/Desktop/CS202/Projects/project5/project5)
+==12861==    by 0x401232: concat(String&, String&, String*) (in /home/grant/Desktop/CS202/Projects/project5/project5)
+==12861==    by 0x401068: main (in /home/grant/Desktop/CS202/Projects/project5/project5)
+==12861== 
+  String Menu
+  ============================== 
+  1.  Copy strings
+  2.  Concat strings
+  3.  compare strings
+  4.  print strings
+  5.  deallocate and exit
+  Enter your selection: 4
+
+dogdog
+dog
+apple
+grapes
+orange
+pear
+pear
+grape
+grapefruit
+peachLemon
+Lemon
+Lime
+Compare: 0
+  String Menu
+  ============================== 
+  1.  Copy strings
+  2.  Concat strings
+  3.  compare strings
+  4.  print strings
+  5.  deallocate and exit
+  Enter your selection: 3
+
+  String Menu
+  ============================== 
+  1.  Copy strings
+  2.  Concat strings
+  3.  compare strings
+  4.  print strings
+  5.  deallocate and exit
+  Enter your selection: 4
+
+dogdog
+dog
+apple
+grapes
+orange
+pear
+pear
+grape
+grapefruit
+peachLemon
+Lemon
+Lime
+Compare: -1
+  String Menu
+  ============================== 
+  1.  Copy strings
+  2.  Concat strings
+  3.  compare strings
+  4.  print strings
+  5.  deallocate and exit
+  Enter your selection: 5
+
+==12861== 
+==12861== HEAP SUMMARY:
+==12861==     in use at exit: 0 bytes in 0 blocks
+==12861==   total heap usage: 22 allocs, 22 frees, 9,079 bytes allocated
+==12861== 
+==12861== All heap blocks were freed -- no leaks are possible
+==12861== 
+==12861== For counts of detected and suppressed errors, rerun with: -v
+==12861== Use --track-origins=yes to see where uninitialised values come from
+==12861== ERROR SUMMARY: 8 errors from 4 contexts (suppressed: 0 from 0)
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project5grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project5$ exit
+
+Script done on Wed 24 Feb 2016 09:45:35 AM PST

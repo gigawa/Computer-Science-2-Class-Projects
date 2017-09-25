@@ -1,0 +1,7 @@
+all: project10
+ListArray.o: listnode.h
+	g++ -c listnode.h listnode.cpp
+project10: main.cpp ListArray.o
+	g++ main.cpp -o project10
+clean: 
+	rm -rf  *.o  project10

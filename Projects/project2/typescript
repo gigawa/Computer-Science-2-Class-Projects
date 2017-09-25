@@ -1,0 +1,104 @@
+Script started on Wed 03 Feb 2016 09:06:48 PM PST
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project2grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project2$ g++ project2.cpp - o project2
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project2grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project2$ ./project2
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 3
+
+Please choose selection '1' to Read Data From File
+
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 1
+
+  Please enter the file name: carData
+
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 2
+
+2014 Toyota Tacoma $115.12 per day Available: true 
+2012 Honda CRV $85.1 per day Available: false 
+2015 Ford Fusion $90.89 per day Available: false 
+2013 GMC Yukon $110.43 per day Available: false 
+2009 Dodge Neon $45.25 per day Available: true 
+2011 Toyota Rav4 $65.02 per day Available: true 
+2012 Mazda CX5 $86.75 per day Available: true 
+2016 Subaru Outback $71.27 per day Available: false 
+2015 Ford F150 $112.83 per day Available: true 
+2010 Toyota Corolla $50.36 per day Available: true 
+
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 3
+
+  Please enter the car number: 3
+  Please enter the number of days: 3
+  Estimated Price: $272.67
+
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 4
+
+  Most Expensive Car: 2014 Toyota Tacoma $115.12 per day Available: true 
+
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 5
+
+2014 Toyota Tacoma $115.12 per day Available: true 
+2009 Dodge Neon $45.25 per day Available: true 
+2011 Toyota Rav4 $65.02 per day Available: true 
+2012 Mazda CX5 $86.75 per day Available: true 
+2015 Ford F150 $112.83 per day Available: true 
+2010 Toyota Corolla $50.36 per day Available: true 
+
+  Rental Car Menu
+  ============================== 
+  1.  Read Data From File
+  2.  Print All Car Data
+  3.  Estimate Car Rental Cost
+  4.  Find Most Expensive Car
+  5.  Print Only Available Cars
+  6.  Exit
+  Enter your selection: 6
+
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project2grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project2$ exit
+
+Script done on Wed 03 Feb 2016 09:07:52 PM PST

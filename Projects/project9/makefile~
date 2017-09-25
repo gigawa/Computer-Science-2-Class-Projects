@@ -1,0 +1,7 @@
+all: project9
+Queue.o: queue3.cpp queueN.h
+	g++ -c queue3.cpp queueN.h
+project9: main.cpp Queue.o
+	g++ main.cpp queue3.o -o project9
+clean: 
+	rm -rf  *.o  project9

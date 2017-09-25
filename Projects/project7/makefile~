@@ -1,0 +1,7 @@
+all: project7
+Polynomial.o: Polynomial.cpp Polynomial.h
+	g++ -c Polynomial.cpp Polynomial.h
+project7: project6.cpp Polynomial.o
+	g++ project7.cpp Polynomial.o -o project7
+clean: 
+	rm -rf  *.o  project7

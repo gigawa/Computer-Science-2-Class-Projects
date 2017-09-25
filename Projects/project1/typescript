@@ -1,0 +1,32 @@
+Script started on Tue 26 Jan 2016 05:15:59 PM PST
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project1grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project1$ g++ project1.cpp - o project1
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project1grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project1$ ./project1
+Please enter the input file name: exampleFile
+Please enter the output file name: output
+
+Unsorted names: 
+Milda
+Dan
+Dale
+Letha
+Kurt
+Daniel
+Kandy
+Tammy
+Malisa
+Corey
+
+Sorted names: 
+Corey
+Dale
+Dan
+Daniel
+Kandy
+Kurt
+Letha
+Malisa
+Milda
+Tammy
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project1grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project1$ exit
+
+Script done on Tue 26 Jan 2016 05:16:38 PM PST

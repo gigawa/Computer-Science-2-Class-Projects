@@ -1,0 +1,272 @@
+Script started on Wed 09 Mar 2016 07:27:07 PM PST
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project6grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project6$ make
+g++ -c Agency.cpp Agency.h
+g++ project6.cpp Agency.o -o project6
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project6grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project6$ valgrind ./project 
+6
+==6359== Memcheck, a memory error detector
+==6359== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==6359== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==6359== Command: ./project6
+==6359== 
+Make/Model Make/Model 2015 $122.12 per day Available: true 
+Rental Car Menu
+============================== 
+1.  Read Data From File
+2.  Print Agency Data
+3.  Print Available Cars
+4.  Find Most Expensive Car
+5.  Estimate Cost
+6.  Sort By Make
+7.  Sort By Price
+8.  Search By Make
+9.  Exit
+Enter your selection: 1
+
+Enter file name: carData
+
+Rental Car Menu
+============================== 
+1.  Read Data From File
+2.  Print Agency Data
+3.  Print Available Cars
+4.  Find Most Expensive Car
+5.  Estimate Cost
+6.  Sort By Make
+7.  Sort By Price
+8.  Search By Make
+9.  Exit
+Enter your selection: 2
+
+National 93619
+Toyota Tacoma 2014 $115.12 per day Available: true 
+Honda CRV 2012 $85.1 per day Available: false 
+Ford Fusion 2015 $90.89 per day Available: false 
+GMC Yukon 2013 $110.43 per day Available: false 
+Dodge Neon 2009 $45.25 per day Available: true 
+Toyota Rav4 2011 $65.02 per day Available: true 
+Mazda CX5 2012 $86.75 per day Available: true 
+Subaru Outback 2016 $71.27 per day Available: false 
+Ford F150 2015 $112.83 per day Available: true 
+Toyota Corolla 2010 $50.36 per day Available: true 
+Ford Fiesta 2008 $42.48 per day Available: false 
+Dodge Charger 2009 $55.36 per day Available: true 
+Chevy Volt 2012 $89.03 per day Available: false 
+Subaru Legacy 2007 $59.19 per day Available: false 
+Nissan Maxima 2010 $51.68 per day Available: true 
+
+Rental Car Menu
+============================== 
+1.  Read Data From File
+2.  Print Agency Data
+3.  Print Available Cars
+4.  Find Most Expensive Car
+5.  Estimate Cost
+6.  Sort By Make
+7.  Sort By Price
+8.  Search By Make
+9.  Exit
+Enter your selection: 3
+
+Toyota Tacoma 2014 $115.12 per day Available: true 
+Dodge Neon 2009 $45.25 per day Available: true 
+Toyota Rav4 2011 $65.02 per day Available: true 
+Mazda CX5 2012 $86.75 per day Available: true 
+Ford F150 2015 $112.83 per day Available: true 
+Toyota Corolla 2010 $50.36 per day Available: true 
+Dodge Charger 2009 $55.36 per day Available: true 
+Nissan Maxima 2010 $51.68 per day Available: true 
+
+Rental Car Menu
+============================== 
+1.  Read Data From File
+2.  Print Agency Data
+3.  Print Available Cars
+4.  Find Most Expensive Car
+5.  Estimate Cost
+6.  Sort By Make
+7.  Sort By Price
+8.  Search By Make
+9.  Exit
+Enter your selection: 4
+
+Most Expensive Car: Toyota Tacoma 2014 $115.12 per day Available: true 
+
+Rental Car Menu
+============================== 
+1.  Read Data From File
+2.  Print Agency Data
+3.  Print Available Cars
+4.  Find Most Expensive Car
+5.  Estimate Cost
+6.  Sort By Make
+7.  Sort By Price
+8.  Search By Make
+9.  Exit
+Enter your selection: 5
+
+Enter car number: 3
+Enter Number of Days: 4
+Estimated Cost: $363.56
+
+Rental Car Menu
+============================== 
+1.  Read Data From File
+2.  Print Agency Data
+3.  Print Available Cars
+4.  Find Most Expensive Car
+5.  Estimate Cost
+6.  Sort By Make
+7.  Sort By Price
+8.  Search By Make
+9.  Exit
+Enter your selection: 6
+
+
+Rental Car Menu
+============================== 
+1.  Read Data From File
+2.  Print Agency Data
+3.  Print Available Cars
+4.  Find Most Expensive Car
+5.  Estimate Cost
+6.  Sort By Make
+7.  Sort By Price
+8.  Search By Make
+9.  Exit
+Enter your selection: 2
+
+National 93619
+Chevy Volt 2012 $89.03 per day Available: false 
+Dodge Neon 2009 $45.25 per day Available: true 
+Dodge Charger 2009 $55.36 per day Available: true 
+Ford Fusion 2015 $90.89 per day Available: false 
+Ford F150 2015 $112.83 per day Available: true 
+Ford Fiesta 2008 $42.48 per day Available: false 
+GMC Yukon 2013 $110.43 per day Available: false 
+Honda CRV 2012 $85.1 per day Available: false 
+Mazda CX5 2012 $86.75 per day Available: true 
+Nissan Maxima 2010 $51.68 per day Available: true 
+Subaru Outback 2016 $71.27 per day Available: false 
+Subaru Legacy 2007 $59.19 per day Available: false 
+Toyota Tacoma 2014 $115.12 per day Available: true 
+Toyota Rav4 2011 $65.02 per day Available: true 
+Toyota Corolla 2010 $50.36 per day Available: true 
+
+Rental Car Menu
+============================== 
+1.  Read Data From File
+2.  Print Agency Data
+3.  Print Available Cars
+4.  Find Most Expensive Car
+5.  Estimate Cost
+6.  Sort By Make
+7.  Sort By Price
+8.  Search By Make
+9.  Exit
+Enter your selection: 7
+
+
+Rental Car Menu
+============================== 
+1.  Read Data From File
+2.  Print Agency Data
+3.  Print Available Cars
+4.  Find Most Expensive Car
+5.  Estimate Cost
+6.  Sort By Make
+7.  Sort By Price
+8.  Search By Make
+9.  Exit
+Enter your selection: 2
+
+National 93619
+Toyota Tacoma 2014 $115.12 per day Available: true 
+Ford F150 2015 $112.83 per day Available: true 
+GMC Yukon 2013 $110.43 per day Available: false 
+Ford Fusion 2015 $90.89 per day Available: false 
+Chevy Volt 2012 $89.03 per day Available: false 
+Mazda CX5 2012 $86.75 per day Available: true 
+Honda CRV 2012 $85.1 per day Available: false 
+Subaru Outback 2016 $71.27 per day Available: false 
+Toyota Rav4 2011 $65.02 per day Available: true 
+Subaru Legacy 2007 $59.19 per day Available: false 
+Dodge Charger 2009 $55.36 per day Available: true 
+Nissan Maxima 2010 $51.68 per day Available: true 
+Toyota Corolla 2010 $50.36 per day Available: true 
+Dodge Neon 2009 $45.25 per day Available: true 
+Ford Fiesta 2008 $42.48 per day Available: false 
+
+Rental Car Menu
+============================== 
+1.  Read Data From File
+2.  Print Agency Data
+3.  Print Available Cars
+4.  Find Most Expensive Car
+5.  Estimate Cost
+6.  Sort By Make
+7.  Sort By Price
+8.  Search By Make
+9.  Exit
+Enter your selection: 8
+
+Enter Make: Toyota
+Toyota Tacoma 2014 $115.12 per day Available: true 
+Toyota Rav4 2011 $65.02 per day Available: true 
+Toyota Corolla 2010 $50.36 per day Available: true 
+
+Rental Car Menu
+============================== 
+1.  Read Data From File
+2.  Print Agency Data
+3.  Print Available Cars
+4.  Find Most Expensive Car
+5.  Estimate Cost
+6.  Sort By Make
+7.  Sort By Price
+8.  Search By Make
+9.  Exit
+Enter your selection: 2
+
+National 93619
+Toyota Tacoma 2014 $115.12 per day Available: true 
+Ford F150 2015 $112.83 per day Available: true 
+GMC Yukon 2013 $110.43 per day Available: false 
+Ford Fusion 2015 $90.89 per day Available: false 
+Chevy Volt 2012 $89.03 per day Available: false 
+Mazda CX5 2012 $86.75 per day Available: true 
+Honda CRV 2012 $85.1 per day Available: false 
+Subaru Outback 2016 $71.27 per day Available: false 
+Toyota Rav4 2011 $65.02 per day Available: true 
+Subaru Legacy 2007 $59.19 per day Available: false 
+Dodge Charger 2009 $55.36 per day Available: true 
+Nissan Maxima 2010 $51.68 per day Available: true 
+Toyota Corolla 2010 $50.36 per day Available: true 
+Dodge Neon 2009 $45.25 per day Available: true 
+Ford Fiesta 2008 $42.48 per day Available: false 
+
+Rental Car Menu
+============================== 
+1.  Read Data From File
+2.  Print Agency Data
+3.  Print Available Cars
+4.  Find Most Expensive Car
+5.  Estimate Cost
+6.  Sort By Make
+7.  Sort By Price
+8.  Search By Make
+9.  Exit
+Enter your selection: 9
+
+==6359== 
+==6359== HEAP SUMMARY:
+==6359==     in use at exit: 0 bytes in 0 blocks
+==6359==   total heap usage: 826 allocs, 826 frees, 26,263 bytes allocated
+==6359== 
+==6359== All heap blocks were freed -- no leaks are possible
+==6359== 
+==6359== For counts of detected and suppressed errors, rerun with: -v
+==6359== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+]0;grant@grant-ThinkPad-T440s: ~/Desktop/CS202/Projects/project6grant@grant-ThinkPad-T440s:~/Desktop/CS202/Projects/project6$ exit
+
+Script done on Wed 09 Mar 2016 07:28:01 PM PST
